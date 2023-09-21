@@ -1,0 +1,15 @@
+---
+import heroImage from "../../assests/triangle_background.png";
+
+const { data } = Astro.props;
+console.log(data);
+---
+
+<header
+  class=`bg-center text-center relative`
+  style=`background-image: url(${heroImage.src})`
+>
+  <div class="absolute top-0 text-center w-full h-full p-4">
+    <h1 class="text-white">test</h1>
+  </div>
+</header>
